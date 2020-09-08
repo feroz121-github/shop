@@ -1,0 +1,85 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: #153580; */
+  background-color: #171a21;
+  padding: 10px;
+}
+
+.main h1 {
+  width: 30%;
+  color: white;
+  padding: 0;
+  margin: 0px;
+  transition: 0.6s;
+}
+
+.main h1 span {
+  font-size: 1em;
+}
+
+.main h1:hover {
+  padding: 20px;
+  font-size: 2.5em;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+  font-size: 1.3em;
+  margin-top: 7px;
+}
+
+ul li {
+  list-style-type: none;
+  text-align: left;
+  color: white;
+}
+
+ul li a:hover {
+  color: white;
+}
+
+ul li::after {
+  content: "";
+  margin: 5px;
+  color: white;
+}
+
+ul li:last-child::after {
+  content: "";
+  margin: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.fa-shopping-cart {
+  color: white;
+  font-size: 2em;
+}
+
+.logout {
+  border-bottom: 1px solid blue;
+  cursor: pointer;
+  float: right;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main * {
+    margin: 0 auto;
+  }
+
+  .main ul {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,35 @@
+form {
+  margin: 2% auto;
+  width: 95%;
+}
+
+.form-group input {
+  display: block;
+  margin: 10px 0px 20px 0px;
+  padding: 15px;
+  width: 100%;
+  outline: none;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
+
+button {
+  padding: 12px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #a2a3a6;
+  font-size: 1.2em;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #171a21;
+  color: white;
+}

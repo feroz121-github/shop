@@ -1,0 +1,86 @@
+.detailsContainer {
+  display: flex;
+  padding: 15px 40px;
+}
+
+.specs {
+  margin-left: 20px;
+  display: grid;
+  flex-basis: 40%;
+  grid-template-rows: 25% 50% 20%;
+}
+
+.main .price {
+  font-size: 1.5em;
+  color: #8d021f;
+}
+
+.faq {
+  padding: 10px;
+  max-width: 30%;
+}
+
+.faq li {
+  list-style-type: none;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.faq li p:first-child {
+  color: #8d021f;
+  font-weight: bold;
+}
+
+.faq li p:last-child {
+  margin-top: 10px;
+}
+
+.cart {
+  margin: 10px 0px;
+  border: none;
+  outline: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+}
+
+.cart:hover {
+  background-color: black;
+  color: white;
+}
+
+.products {
+  margin: 20px 0 0 40px;
+}
+
+.products .heading {
+  margin-bottom: 10px;
+}
+
+.products .card {
+  margin: 0 25px 0 0;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.products .card img {
+  width: 259px;
+  height: 180px;
+}
+
+.products .card-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products .card .price {
+  font-size: 1.3em;
+  color: #8d021f;
+}
